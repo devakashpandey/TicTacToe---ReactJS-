@@ -1,0 +1,52 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;;
+}
+
+.clear-btn{
+  padding: 7px 17px;
+  font-size: 20px;
+  font-weight:500;
+  border: none;
+  cursor: pointer;
+  margin: 40px auto;
+  display: block;
+  background-color: rgb(248, 166, 14);
+  color: rgb(250, 248, 248);
+}
+
+.clear-btn:hover{
+ color:black;
+ background-color: rgb(238, 157, 5);
+}
+
+.restrt-btn{
+
+  padding: 8px 16px;
+  font-size: 20px;
+  font-weight:500;
+  border: none;
+  cursor: pointer;
+  margin: 40px auto;
+  display: block;
+  background-color: greenyellow;
+  color: rgb(116, 114, 114);
+  margin-top: -15px;
+
+}
+
+.restrt-btn:hover{
+  color:black;
+  background-color: rgb(132, 208, 17);
+}
+
+h1{
+  margin-top: 20px;
+  font-size: 40px;
+  background-color: aliceblue;
+  width: 35rem;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+}

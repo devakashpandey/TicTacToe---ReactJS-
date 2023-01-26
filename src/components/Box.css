@@ -1,0 +1,27 @@
+.box{
+background-color: white;
+border-radius: 10px;
+cursor: pointer;
+box-shadow: 2px 3px 8px rgb(62, 61, 61);
+width: 4.5rem;
+height: 4.5rem;
+font-size: 50px;
+font-weight: bold;
+border: none;
+text-align: center;
+line-height: 4rem;   /* CENTERED BY VERTICALLY */
+margin: 12px;
+}
+         
+
+.box:hover{
+  box-shadow: 2px 3px 12px rgb(62, 61, 61);
+}             
+
+.x{
+  color:rgb(229, 149, 0);
+}
+
+.o{
+   color: rgb(11, 175, 22);
+}
