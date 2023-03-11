@@ -1,35 +1,40 @@
-.sBoard{  
-   display: flex;
-   flex-direction: row;
-   justify-content: space-evenly;     
-   align-items: center;
-   background-color: white;
-   margin:40px auto;
-   box-shadow: 0px 2px 8px rgb(72, 69, 69);
-   width: 38%;
-   font-weight: bold;
-   border-radius: 10px
+.sBoard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  margin: 40px auto;
+  box-shadow: 0px 2px 8px rgb(72, 69, 69);
+  width: 30%;
+  font-weight: bold;
+  border-radius: 10px;
 }
 
-.score{
-font-size: 35px;
-width: 100%; 
-text-align: center;
+.score {
+  font-size: 35px;
+  width: 100%;
+  text-align: center;
 }
 
-.x-score{
-color:rgb(229, 149, 0);
-border-bottom: 5px solid rgb(229, 149, 0);
-border-radius: 0 0 0 10px;
-                      
+.x-score {
+  color: rgb(229, 149, 0);
+  border-bottom: 5px solid rgb(229, 149, 0);
+  border-radius: 0 0 0 10px;
 }
 
-.o-score{
-color: rgb(11, 175, 22);
-border-bottom: 5px solid rgb(11, 175, 22);
-border-radius: 0 0 10px 0 ;
+.o-score {
+  color: rgb(11, 175, 22);
+  border-bottom: 5px solid rgb(11, 175, 22);
+  border-radius: 0 0 10px 0;
 }
 
-.inactive{
-   border-bottom: 5px solid transparent;
+.inactive {
+  border-bottom: 5px solid transparent;
+}
+
+@media (max-width: 500px) {
+  .sBoard {
+    width: 80%;
+  }
 }

@@ -1,6 +1,6 @@
-.boxes{
-   display: grid;
-   grid-template-columns: repeat(3,5.5rem);
-   place-items: center;
-   justify-content: center;
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 5.5rem);
+  place-items: center;
+  justify-content: center;
 }
