@@ -33,8 +33,14 @@
   border-bottom: 5px solid transparent;
 }
 
+@media (max-width: 750px) {
+  .sBoard {
+    width: 60%;
+  }
+}
+
 @media (max-width: 500px) {
   .sBoard {
-    width: 80%;
+    width: 70%;
   }
 }
